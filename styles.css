@@ -461,6 +461,21 @@ section {
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
 }
 
+/* About Image Styles */
+.about-img {
+  width: 250px;
+  height: 420px;
+  border-radius: var(--radius-2xl);
+  object-fit: cover;
+  box-shadow: var(--shadow-lg);
+  transition: transform var(--transition-base);
+}
+
+.about-img:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
 .about-description {
   font-size: var(--font-size-lg);
   margin-bottom: var(--spacing-md);
